@@ -1,0 +1,8 @@
+Command: python figgie_arena.py simulate --rounds 1000 --seed 42
+
+1000 rounds | 27.9 trades per round
+Bot              Mean P&L  Std error
+Baseline           -15.71       0.43
+Hand only           -8.42       1.15
+Bonus only          +7.61       1.74
+Hand + bonus       +16.52       1.94
